@@ -1,0 +1,22 @@
+version: 2
+
+sources:
+ - name: rds_person
+   database: turbo
+   schema: rds_person
+   tables:
+     - name: address_cur
+     - name: main_cur 
+
+ - name: rds_product
+   database: turbo
+   schema: rds_product
+   tables:
+     - name: core_contract_cur
+
+ - name: stori_ccm
+   database: powerup
+   schema: stori_ccm
+   tables:
+     - name: person_main_cur
+     - name: address_cur
